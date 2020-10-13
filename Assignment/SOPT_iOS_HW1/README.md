@@ -2,7 +2,7 @@
 
 ##### **Present, Push, Pop 사용해보기 + 도전과제**
 
-![week1_1](<img src="https://user-images.githubusercontent.com/41044154/95824335-13835280-0d6a-11eb-9769-a72039fe3bab.png" width="30%" height="30%">)![week1_2](https://user-images.githubusercontent.com/41044154/95824442-44fc1e00-0d6a-11eb-9d39-462ed422ea8f.png" width="30%" height="30%">)![week1_3](https://user-images.githubusercontent.com/41044154/95824482-547b6700-0d6a-11eb-80f4-9990907fc5b3.png" width="30%" height="30%">)
+<img src="https://user-images.githubusercontent.com/41044154/95824335-13835280-0d6a-11eb-9769-a72039fe3bab.png" width="30%" height="30%"><img src="https://user-images.githubusercontent.com/41044154/95824442-44fc1e00-0d6a-11eb-9d39-462ed422ea8f.png" width="30%" height="30%"><img src="https://user-images.githubusercontent.com/41044154/95824482-547b6700-0d6a-11eb-80f4-9990907fc5b3.png" width="30%" height="30%">
 
 
 
@@ -26,7 +26,7 @@ self.navigationController?.popViewController(animated: true)
 
 **📍도전과제 - 로그인 후 메인화면 업데이트**  
 
-![week1_4](https://user-images.githubusercontent.com/41044154/95824525-66f5a080-0d6a-11eb-8874-655d88bcb97c.png" width="30%" height="30%">)![week1_5](https://user-images.githubusercontent.com/41044154/95824560-783ead00-0d6a-11eb-943c-4790a2b13422.png" width="30%" height="30%">)
+<img src="https://user-images.githubusercontent.com/41044154/95824525-66f5a080-0d6a-11eb-8874-655d88bcb97c.png" width="30%" height="30%"><img src="https://user-images.githubusercontent.com/41044154/95824560-783ead00-0d6a-11eb-943c-4790a2b13422.png" width="30%" height="30%">
 
 - **LoginVC**
 
@@ -65,6 +65,7 @@ self.navigationController?.popViewController(animated: true)
   }
   ```
 
-  **🔹메인화면 업데이트를 위해 **viewDidLoad가 아닌 viewWillAppear에서 호출**해줘야만 한다! 
+  🔹메인화면 업데이트를 위해 **viewDidLoad가 아닌 viewWillAppear에서 호출**해줘야만 한다! 
 
-  **🔹viewDidLoad() 메소드를 사용하지 않는 이유는 **화면이 생성되고 최초 한번만 호출**되기 때문이다.
+  🔹viewDidLoad() 메소드를 사용하지 않는 이유는 **화면이 생성되고 최초 한번만 호출**되기 때문이다.
+

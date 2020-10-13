@@ -2,7 +2,7 @@
 
 ##### **Present, Push, Pop 사용해보기 + 도전과제**
 
-![](<img src="../../img/week1_1.png" width="30%" height="30%">)![](<img src="../../img/week1_2.png" width="30%" height="30%">)![](<img src="../../img/week1_3.png" width="30%" height="30%">)
+![week1_1](<img src="https://user-images.githubusercontent.com/41044154/95824335-13835280-0d6a-11eb-9769-a72039fe3bab.png" width="30%" height="30%">)![week1_2](https://user-images.githubusercontent.com/41044154/95824442-44fc1e00-0d6a-11eb-9d39-462ed422ea8f.png" width="30%" height="30%">)![week1_3](https://user-images.githubusercontent.com/41044154/95824482-547b6700-0d6a-11eb-80f4-9990907fc5b3.png" width="30%" height="30%">)
 
 
 
@@ -26,7 +26,7 @@ self.navigationController?.popViewController(animated: true)
 
 **📍도전과제 - 로그인 후 메인화면 업데이트**  
 
-![](<img src="../../img/week1_4.png" width="30%" height="30%">)![](<img src="../../img/week1_5.png" width="30%" height="30%">)
+![week1_4](https://user-images.githubusercontent.com/41044154/95824525-66f5a080-0d6a-11eb-8874-655d88bcb97c.png" width="30%" height="30%">)![week1_5](https://user-images.githubusercontent.com/41044154/95824560-783ead00-0d6a-11eb-943c-4790a2b13422.png" width="30%" height="30%">)
 
 - **LoginVC**
 

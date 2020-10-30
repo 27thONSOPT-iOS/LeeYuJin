@@ -672,10 +672,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="L9E-lp-cJU"/>
                     <size key="freeformSize" width="414" height="1905"/>
+                    <connections>
+                        <outlet property="bannerImg" destination="7M2-zE-8ls" id="gZC-ne-xse"/>
+                        <outlet property="contentView" destination="x7F-36-xMS" id="fxE-ak-622"/>
+                        <outlet property="scrollView" destination="d66-FP-6yp" id="Tgd-or-A5M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1397.1014492753625" y="118.19196428571428"/>
+            <point key="canvasLocation" x="1390" y="456"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YI4-if-7Su">

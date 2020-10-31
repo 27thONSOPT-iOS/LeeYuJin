@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Music InfoVC-->
+        <scene sceneID="wvo-TA-Wro">
+            <objects>
+                <viewController storyboardIdentifier="MusicInfoVC" id="t6J-jS-jaH" customClass="MusicInfoVC" customModule="SOPT_iOS_Seminar3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mws-Ro-T8T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYf-x1-kz5">
+                                <rect key="frame" x="0.0" y="130" width="414" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ede-F2-Z6Q">
+                                <rect key="frame" x="87" y="258" width="240" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ede-F2-Z6Q" secondAttribute="height" multiplier="120:109" id="ACs-5l-RkS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSP-Li-Q4f">
+                                <rect key="frame" x="0.0" y="163" width="414" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="D1c-3w-fvB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YYf-x1-kz5" firstAttribute="leading" secondItem="D1c-3w-fvB" secondAttribute="leading" id="1Ii-00-yMo"/>
+                            <constraint firstItem="YYf-x1-kz5" firstAttribute="trailing" secondItem="D1c-3w-fvB" secondAttribute="trailing" id="5gi-bp-xuR"/>
+                            <constraint firstItem="Ede-F2-Z6Q" firstAttribute="top" secondItem="wSP-Li-Q4f" secondAttribute="bottom" constant="71" id="7wp-cp-YAa"/>
+                            <constraint firstItem="Ede-F2-Z6Q" firstAttribute="centerX" secondItem="wSP-Li-Q4f" secondAttribute="centerX" id="LHD-ra-CYz"/>
+                            <constraint firstItem="wSP-Li-Q4f" firstAttribute="trailing" secondItem="D1c-3w-fvB" secondAttribute="trailing" id="MGI-bi-PaK"/>
+                            <constraint firstItem="wSP-Li-Q4f" firstAttribute="leading" secondItem="D1c-3w-fvB" secondAttribute="leading" id="P0u-YM-qhD"/>
+                            <constraint firstItem="D1c-3w-fvB" firstAttribute="trailing" secondItem="Ede-F2-Z6Q" secondAttribute="trailing" constant="87" id="VMX-gi-aS5"/>
+                            <constraint firstItem="Ede-F2-Z6Q" firstAttribute="leading" secondItem="D1c-3w-fvB" secondAttribute="leading" constant="87" id="aV4-9p-yN7"/>
+                            <constraint firstItem="YYf-x1-kz5" firstAttribute="top" secondItem="D1c-3w-fvB" secondAttribute="top" constant="42" id="hXD-Qg-wfG"/>
+                            <constraint firstItem="wSP-Li-Q4f" firstAttribute="top" secondItem="YYf-x1-kz5" secondAttribute="bottom" constant="4" id="oFI-fz-BQq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xrg-mr-QtK"/>
+                    <connections>
+                        <outlet property="albumImageView" destination="Ede-F2-Z6Q" id="Bf8-N4-Lok"/>
+                        <outlet property="singerLabel" destination="wSP-Li-Q4f" id="ipJ-AE-mfz"/>
+                        <outlet property="titleLabel" destination="YYf-x1-kz5" id="Xog-lU-b3j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u0G-U1-8wp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1089.8550724637682" y="18.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="a5b-Rc-hkC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ojk-ti-gOh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SQW-Jx-XS2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="t6J-jS-jaH" kind="relationship" relationship="rootViewController" id="VQn-FW-1CB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYT-df-CII" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="179.71014492753625" y="18.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -28,6 +28,8 @@ func setTabBar() {
 
 
 
+
+
 <img src="https://user-images.githubusercontent.com/41044154/99085436-86067d00-260b-11eb-8977-8bf277b26ded.png" width="30%" height="30%"><img src="https://user-images.githubusercontent.com/41044154/99085471-928ad580-260b-11eb-9988-aa64b1ea13a5.png" width="30%" height="30%">
 
 **📍Animation 사용해보기**

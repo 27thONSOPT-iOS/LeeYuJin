@@ -10,5 +10,5 @@
 |                         3주차 세미나                         |    DelegatePattern, TableView, CollectionView     |
 |                          3주차 과제                          |             CollectionView 만들어보기             |
 |                         4주차 세미나                         |      Animation, TabbarController, CocoaPods       |
-|                          4주차 과제                          | TabbarController, Animation 사용해보기 + 도전과제 |
+| [4주차 과제](https://github.com/27thONSOPT-iOS/LeeYuJin/tree/master/Assignment/SOPT_iOS_HW3) | TabbarController, Animation 사용해보기 + 도전과제 |
 

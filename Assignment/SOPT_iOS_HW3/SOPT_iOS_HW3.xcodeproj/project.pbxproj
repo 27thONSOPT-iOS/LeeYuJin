@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE48DE83255E49D1008A488D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48DE82255E49D1008A488D /* LoginVC.swift */; };
 		AE48DE86255E4D05008A488D /* LoginAniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48DE85255E4D05008A488D /* LoginAniVC.swift */; };
+		AE7229A3255E5E4F00446387 /* TabBarCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7229A2255E5E4F00446387 /* TabBarCV.swift */; };
 		AEB674B8255126460079E14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB674B7255126460079E14F /* AppDelegate.swift */; };
 		AEB674BA255126460079E14F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB674B9255126460079E14F /* SceneDelegate.swift */; };
 		AEB674BC255126460079E14F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB674BB255126460079E14F /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		AE48DE82255E49D1008A488D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		AE48DE85255E4D05008A488D /* LoginAniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAniVC.swift; sourceTree = "<group>"; };
+		AE7229A2255E5E4F00446387 /* TabBarCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCV.swift; sourceTree = "<group>"; };
 		AEB674B4255126460079E14F /* SOPT_iOS_HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPT_iOS_HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB674B7255126460079E14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB674B9255126460079E14F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				AEB674BB255126460079E14F /* ViewController.swift */,
 				AEB674CC25513B4E0079E14F /* InfoCell.swift */,
 				AEB674BD255126460079E14F /* Main.storyboard */,
+				AE7229A2255E5E4F00446387 /* TabBarCV.swift */,
 				AE48DE85255E4D05008A488D /* LoginAniVC.swift */,
 				AE48DE82255E49D1008A488D /* LoginVC.swift */,
 				AEB674CF2551476B0079E14F /* BannerCell.swift */,
@@ -155,6 +158,7 @@
 				AEB674CD25513B4E0079E14F /* InfoCell.swift in Sources */,
 				AEB674B8255126460079E14F /* AppDelegate.swift in Sources */,
 				AEB674BA255126460079E14F /* SceneDelegate.swift in Sources */,
+				AE7229A3255E5E4F00446387 /* TabBarCV.swift in Sources */,
 				AE48DE86255E4D05008A488D /* LoginAniVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

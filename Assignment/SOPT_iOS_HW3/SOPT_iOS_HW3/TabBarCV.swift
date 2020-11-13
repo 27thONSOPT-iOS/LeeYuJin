@@ -26,6 +26,7 @@ class TabBarCV: UITabBarController {
         login.tabBarItem.title = "Profile"
         login.tabBarItem.image = UIImage(systemName: "person")
         login.tabBarItem.selectedImage = UIImage(systemName: "person.fill")
-        setViewControllers([login, home], animated: true) }
+        setViewControllers([login, home], animated: true)
+    }
 
 }

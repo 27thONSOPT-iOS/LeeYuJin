@@ -24,26 +24,49 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 extension ViewController {
     
     func setStatus(){
+//        if #available(iOS 13.0, *) {
+//            let app = UIApplication.shared
+//
+//            let statusbarView = UIView()
+//            statusbarView.backgroundColor = UIColor.black
+//            view.addSubview(statusbarView)
+//
+//            statusbarView.translatesAutoresizingMaskIntoConstraints = false
+//            statusbarView.heightAnchor
+//                .constraint(equalToConstant: app.statusBarFrame.size.height).isActive = true
+//            statusbarView.widthAnchor
+//                .constraint(equalTo: view.widthAnchor, multiplier: 1.0).isActive = true
+//            statusbarView.topAnchor
+//                .constraint(equalTo: view.topAnchor).isActive = true
+//            statusbarView.centerXAnchor
+//                .constraint(equalTo: view.centerXAnchor).isActive = true
+//
+//        } else {
+//            let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView
+//            statusBar?.backgroundColor = UIColor.black
+//        }
         if #available(iOS 13.0, *) {
-            let app = UIApplication.shared
-            
-            let statusbarView = UIView()
-            statusbarView.backgroundColor = UIColor.black
-            view.addSubview(statusbarView)
-            
-            statusbarView.translatesAutoresizingMaskIntoConstraints = false
-            statusbarView.heightAnchor
-                .constraint(equalToConstant: app.statusBarFrame.size.height).isActive = true
-            statusbarView.widthAnchor
-                .constraint(equalTo: view.widthAnchor, multiplier: 1.0).isActive = true
-            statusbarView.topAnchor
-                .constraint(equalTo: view.topAnchor).isActive = true
-            statusbarView.centerXAnchor
-                .constraint(equalTo: view.centerXAnchor).isActive = true
-            
-        } else {
-            let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView
-            statusBar?.backgroundColor = UIColor.black
+              var statusBarHeight: CGFloat = 0
+              let margin = view.layoutMarginsGuide
+              if let window = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) {
+                statusBarHeight = window.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+                print(statusBarHeight)
+              }
+              // height를 구하고,
+              
+              let statusbarView = UIView()
+              statusbarView.backgroundColor = UIColor.black
+              statusbarView.frame = CGRect.zero
+              view.addSubview(statusbarView)
+              statusbarView.translatesAutoresizingMaskIntoConstraints = false
+              // frame 선언
+
+              NSLayoutConstraint.activate([
+                statusbarView.topAnchor.constraint(equalTo: view.topAnchor),
+                statusbarView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1.0),
+                statusbarView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                statusbarView.bottomAnchor.constraint(equalTo: margin.topAnchor)
+              ])
         }
     }
     
@@ -93,7 +116,6 @@ extension ViewController: UICollectionViewDelegate {
         switch indexPath.section {
         case 0:
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BannerCell", for: indexPath)
-            
             return cell
         case 1:
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "InfoCell", for: indexPath)
@@ -124,7 +146,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout{
         if section == 0 {
             return 0
         } else{
-            return 27
+            return 24
         }
     }
     
@@ -132,7 +154,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout{
         if section == 0 {
             return 0
         } else{
-            return 27
+            return 25
         }
     }
     

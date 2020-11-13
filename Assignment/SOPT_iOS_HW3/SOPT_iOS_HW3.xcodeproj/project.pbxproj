@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE48DE83255E49D1008A488D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48DE82255E49D1008A488D /* LoginVC.swift */; };
+		AE48DE86255E4D05008A488D /* LoginAniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48DE85255E4D05008A488D /* LoginAniVC.swift */; };
 		AEB674B8255126460079E14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB674B7255126460079E14F /* AppDelegate.swift */; };
 		AEB674BA255126460079E14F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB674B9255126460079E14F /* SceneDelegate.swift */; };
 		AEB674BC255126460079E14F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB674BB255126460079E14F /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE48DE82255E49D1008A488D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AE48DE85255E4D05008A488D /* LoginAniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAniVC.swift; sourceTree = "<group>"; };
 		AEB674B4255126460079E14F /* SOPT_iOS_HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPT_iOS_HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB674B7255126460079E14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB674B9255126460079E14F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				AEB674BB255126460079E14F /* ViewController.swift */,
 				AEB674CC25513B4E0079E14F /* InfoCell.swift */,
 				AEB674BD255126460079E14F /* Main.storyboard */,
+				AE48DE85255E4D05008A488D /* LoginAniVC.swift */,
+				AE48DE82255E49D1008A488D /* LoginVC.swift */,
 				AEB674CF2551476B0079E14F /* BannerCell.swift */,
 				AEB674C0255126490079E14F /* Assets.xcassets */,
 				AEB674C2255126490079E14F /* LaunchScreen.storyboard */,
@@ -145,9 +151,11 @@
 			files = (
 				AEB674BC255126460079E14F /* ViewController.swift in Sources */,
 				AEB674D02551476B0079E14F /* BannerCell.swift in Sources */,
+				AE48DE83255E49D1008A488D /* LoginVC.swift in Sources */,
 				AEB674CD25513B4E0079E14F /* InfoCell.swift in Sources */,
 				AEB674B8255126460079E14F /* AppDelegate.swift in Sources */,
 				AEB674BA255126460079E14F /* SceneDelegate.swift in Sources */,
+				AE48DE86255E4D05008A488D /* LoginAniVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
